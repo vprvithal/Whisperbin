@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-8">
+    <div class="card shadow-sm text-center border-danger">
+      <div class="card-body">
+        <h1 class="card-title text-danger">Access Denied</h1>
+        <p class="lead">For security, recipients of a note cannot create new notes in the same session.</p>
+        <p>To create a new note, please close this browser and open a new one.</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
